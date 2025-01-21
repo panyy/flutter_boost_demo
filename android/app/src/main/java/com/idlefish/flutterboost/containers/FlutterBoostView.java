@@ -220,6 +220,11 @@ public class FlutterBoostView extends LifecycleView implements FlutterViewContai
         }
     }
 
+    @Override
+    public boolean attachToEngineAutomatically() {
+        return false;
+    }
+
     public String getUrl() {
         if (!getArguments().containsKey(EXTRA_URL)) {
             throw new RuntimeException("Oops! The view url are *MISSED*! You should "

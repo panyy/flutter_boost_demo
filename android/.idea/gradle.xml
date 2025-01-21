@@ -9,35 +9,6 @@
         <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$USER_HOME$/.pub-cache/git/flutter_packages-6bab8b570e33707c0bf0f4f513009327593dca74/packages/image_picker/image_picker/android" />
-            <option value="$USER_HOME$/.pub-cache/git/flutter_packages-6bab8b570e33707c0bf0f4f513009327593dca74/packages/image_picker/image_picker_ohos/android" />
-            <option value="$USER_HOME$/.pub-cache/git/flutter_packages-6bab8b570e33707c0bf0f4f513009327593dca74/packages/path_provider/path_provider_ohos/android" />
-            <option value="$USER_HOME$/.pub-cache/git/flutter_packages-6bab8b570e33707c0bf0f4f513009327593dca74/packages/video_player/video_player/android" />
-            <option value="$USER_HOME$/.pub-cache/git/flutter_packages-6bab8b570e33707c0bf0f4f513009327593dca74/packages/video_player/video_player_ohos/android" />
-            <option value="$USER_HOME$/.pub-cache/git/flutter_packages-6bab8b570e33707c0bf0f4f513009327593dca74/packages/webview_flutter/webview_flutter/android" />
-            <option value="$USER_HOME$/.pub-cache/git/flutter_packages-6bab8b570e33707c0bf0f4f513009327593dca74/packages/webview_flutter/webview_flutter_android/android" />
-            <option value="$USER_HOME$/.pub-cache/git/flutter_packages-6bab8b570e33707c0bf0f4f513009327593dca74/packages/webview_flutter/webview_flutter_ohos/android" />
-            <option value="$USER_HOME$/.pub-cache/git/flutter_packages-6bab8b570e33707c0bf0f4f513009327593dca74/packages/webview_flutter/webview_flutter_wkwebview/android" />
-            <option value="$USER_HOME$/.pub-cache/git/flutter_packages-d3f6d21dc3792730ae6499cf196c380575772832/packages/path_provider/path_provider/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/dual_screen-1.0.4/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.3+2/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.4+2/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+3/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.24/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+19/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/image_picker_for_web-3.0.6/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.12+2/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.1+1/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.1+1/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.1+1/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_android-2.2.15/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.1/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/video_player_android-2.7.16/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.6.5/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/video_player_web-2.3.3/android" />
-            <option value="$PROJECT_DIR$/../../android" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
           </set>

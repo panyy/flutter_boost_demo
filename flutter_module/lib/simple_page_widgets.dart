@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boost_example/case/platform_view.dart';
+import 'case/platform_view.dart';
 import 'package:flutter_boost/flutter_boost.dart';
 
 class FirstRouteWidget extends StatefulWidget {

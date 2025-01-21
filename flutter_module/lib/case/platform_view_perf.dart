@@ -1,6 +1,14 @@
+/*
+ * @LastEditors: liushuxin admin@example.com
+ * @LastEditTime: 2025-01-21 21:03:23
+ * @FilePath: /flutter_boost_demo/flutter_module/lib/case/platform_view_perf.dart
+ * @Description: 
+ * 
+ * Copyright (c) 2025 by liushuxin@comeon.com All Rights Reserved. 
+ */
 import 'package:flutter/material.dart';
 import 'package:flutter_boost/flutter_boost.dart';
-import 'package:flutter_boost_example/case/native_view.dart';
+import 'native_view.dart';
 import 'simple_webview.dart';
 
 class PlatformViewPerf extends StatefulWidget {
@@ -48,8 +56,7 @@ class PlatformViewPerfState extends State<PlatformViewPerf> {
                       'Open flutter page',
                       style: TextStyle(fontSize: 20.0, color: Colors.black),
                     )),
-                onTap: () => BoostNavigator.instance
-                    .push("flutterPage", withContainer: withContainer),
+                onTap: () => BoostNavigator.instance.push("flutterPage", withContainer: withContainer),
               ),
               InkWell(
                 child: Container(
@@ -59,9 +66,7 @@ class PlatformViewPerfState extends State<PlatformViewPerf> {
                       'Open another PlatformView',
                       style: TextStyle(fontSize: 20.0, color: Colors.black),
                     )),
-                onTap: () => BoostNavigator.instance.push(
-                    "platformview/listview",
-                    withContainer: withContainer),
+                onTap: () => BoostNavigator.instance.push("platformview/listview", withContainer: withContainer),
               ),
               Container(
                 width: 1080,
@@ -82,28 +87,21 @@ class PlatformViewPerfState extends State<PlatformViewPerf> {
                     Expanded(
                       child: ListView.builder(
                           itemCount: 1000,
-                          itemBuilder: (BuildContext context, int index) =>
-                              Padding(
-                                padding: const EdgeInsets.only(
-                                    left: 10.0,
-                                    top: 4.0,
-                                    right: 10.0,
-                                    bottom: 4.0),
+                          itemBuilder: (BuildContext context, int index) => Padding(
+                                padding: const EdgeInsets.only(left: 10.0, top: 4.0, right: 10.0, bottom: 4.0),
                                 child: Column(
                                   children: <Widget>[
                                     Card(
                                       elevation: 2.0,
                                       child: ListTile(
-                                        title: Text(
-                                            'Flutter ListView item ${index + 1}'),
+                                        title: Text('Flutter ListView item ${index + 1}'),
                                       ),
                                     ),
                                     Card(
                                       elevation: 2.0,
                                       child: SizedBox(
                                         height: 70,
-                                        child: NativeView(
-                                            viewType, usingHybridComposition),
+                                        child: NativeView(viewType, usingHybridComposition),
                                       ),
                                     ),
                                   ],

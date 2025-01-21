@@ -153,9 +153,9 @@ packages:
   flutter_boost:
     dependency: "direct main"
     description:
-      path: "flutter_boost-4.6.5"
+      path: flutter_boost
       ref: HEAD
-      resolved-ref: "7fb257913d2a7666e7d8788740ba101387c5e7e6"
+      resolved-ref: e832f082ed8e5033c534efe57ef1a75fc06f8579
       url: "https://github.com/LShuXin/flutter_plugins"
     source: git
     version: "4.6.5"
@@ -220,12 +220,11 @@ packages:
   image_picker:
     dependency: "direct main"
     description:
-      path: "packages/image_picker/image_picker"
-      ref: HEAD
-      resolved-ref: "703a0783921a8db9ba299aa0d9a67f1abd46a873"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-    source: git
-    version: "1.0.2"
+      name: image_picker
+      sha256: "021834d9c0c3de46bf0fe40341fa07168407f694d9b2bb18d532dc1261867f7a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.2"
   image_picker_android:
     dependency: transitive
     description:
@@ -266,15 +265,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.2.1+1"
-  image_picker_ohos:
-    dependency: transitive
-    description:
-      path: "packages/image_picker/image_picker_ohos"
-      ref: HEAD
-      resolved-ref: "703a0783921a8db9ba299aa0d9a67f1abd46a873"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-    source: git
-    version: "0.8.7+4"
   image_picker_platform_interface:
     dependency: transitive
     description:
@@ -374,12 +364,11 @@ packages:
   path_provider:
     dependency: "direct main"
     description:
-      path: "packages/path_provider/path_provider"
-      ref: d3f6d21
-      resolved-ref: d3f6d21dc3792730ae6499cf196c380575772832
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-    source: git
-    version: "2.1.0"
+      name: path_provider
+      sha256: "50c5dd5b6e1aaf6fb3a78b33f6aa3afca52bf903a8a5298f53101fdaee55bbcd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.5"
   path_provider_android:
     dependency: transitive
     description:
@@ -403,15 +392,6 @@ packages:
       sha256: f7a1fe3a634fe7734c8d3f2766ad746ae2a2884abe22e241a8b301bf5cac3279
       url: "https://pub.dev"
     source: hosted
-    version: "2.2.1"
-  path_provider_ohos:
-    dependency: transitive
-    description:
-      path: "packages/path_provider/path_provider_ohos"
-      ref: HEAD
-      resolved-ref: "703a0783921a8db9ba299aa0d9a67f1abd46a873"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-    source: git
     version: "2.2.1"
   path_provider_platform_interface:
     dependency: transitive
@@ -517,12 +497,11 @@ packages:
   video_player:
     dependency: "direct main"
     description:
-      path: "packages/video_player/video_player"
-      ref: HEAD
-      resolved-ref: "703a0783921a8db9ba299aa0d9a67f1abd46a873"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-    source: git
-    version: "2.7.1"
+      name: video_player
+      sha256: "4a8c3492d734f7c39c2588a3206707a05ee80cef52e8c7f3b2078d430c84bc17"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.9.2"
   video_player_android:
     dependency: transitive
     description:
@@ -539,15 +518,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.6.7"
-  video_player_ohos:
-    dependency: transitive
-    description:
-      path: "packages/video_player/video_player_ohos"
-      ref: HEAD
-      resolved-ref: "703a0783921a8db9ba299aa0d9a67f1abd46a873"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-    source: git
-    version: "1.0.0+1"
   video_player_platform_interface:
     dependency: transitive
     description:
@@ -583,48 +553,35 @@ packages:
   webview_flutter:
     dependency: "direct main"
     description:
-      path: "packages/webview_flutter/webview_flutter"
-      ref: HEAD
-      resolved-ref: "703a0783921a8db9ba299aa0d9a67f1abd46a873"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-    source: git
-    version: "4.6.0"
+      name: webview_flutter
+      sha256: "889a0a678e7c793c308c68739996227c9661590605e70b1f6cf6b9a6634f7aec"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.10.0"
   webview_flutter_android:
     dependency: transitive
     description:
-      path: "packages/webview_flutter/webview_flutter_android"
-      ref: HEAD
-      resolved-ref: "703a0783921a8db9ba299aa0d9a67f1abd46a873"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-    source: git
-    version: "3.15.0"
-  webview_flutter_ohos:
-    dependency: transitive
-    description:
-      path: "packages/webview_flutter/webview_flutter_ohos"
-      ref: HEAD
-      resolved-ref: "703a0783921a8db9ba299aa0d9a67f1abd46a873"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-    source: git
-    version: "3.15.0"
+      name: webview_flutter_android
+      sha256: "5568f17a9c25c0fdd0737900fa1c2d1fee2d780bc212d9aec10c2d1f48ef0f59"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.3.1"
   webview_flutter_platform_interface:
     dependency: transitive
     description:
-      path: "packages/webview_flutter/webview_flutter_platform_interface"
-      ref: HEAD
-      resolved-ref: "703a0783921a8db9ba299aa0d9a67f1abd46a873"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-    source: git
+      name: webview_flutter_platform_interface
+      sha256: d937581d6e558908d7ae3dc1989c4f87b786891ab47bb9df7de548a151779d8d
+      url: "https://pub.dev"
+    source: hosted
     version: "2.10.0"
   webview_flutter_wkwebview:
     dependency: transitive
     description:
-      path: "packages/webview_flutter/webview_flutter_wkwebview"
-      ref: HEAD
-      resolved-ref: "703a0783921a8db9ba299aa0d9a67f1abd46a873"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-    source: git
-    version: "3.12.0"
+      name: webview_flutter_wkwebview
+      sha256: "4adc14ea9a770cc9e2c8f1ac734536bd40e82615bd0fa6b94be10982de656cc7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.17.0"
   xdg_directories:
     dependency: transitive
     description:

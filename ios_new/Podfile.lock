@@ -2,21 +2,59 @@ PODS:
   - Flutter (1.0.0)
   - flutter_boost (0.0.2):
     - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_boost
+    - image_picker_ios
+    - path_provider_foundation
+    - video_player_avfoundation
+    - webview_flutter_wkwebview
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+    - FlutterMacOS
 
 DEPENDENCIES:
-  - Flutter (from `Flutter`)
-  - flutter_boost (from `.symlinks/plugins/flutter_boost/ios`)
+  - Flutter (from `../flutter_module/.ios/Flutter`)
+  - flutter_boost (from `../flutter_module/.ios/.symlinks/plugins/flutter_boost/ios`)
+  - FlutterPluginRegistrant (from `../flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - image_picker_ios (from `../flutter_module/.ios/.symlinks/plugins/image_picker_ios/ios`)
+  - path_provider_foundation (from `../flutter_module/.ios/.symlinks/plugins/path_provider_foundation/darwin`)
+  - video_player_avfoundation (from `../flutter_module/.ios/.symlinks/plugins/video_player_avfoundation/darwin`)
+  - webview_flutter_wkwebview (from `../flutter_module/.ios/.symlinks/plugins/webview_flutter_wkwebview/darwin`)
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: Flutter
+    :path: "../flutter_module/.ios/Flutter"
   flutter_boost:
-    :path: ".symlinks/plugins/flutter_boost/ios"
+    :path: "../flutter_module/.ios/.symlinks/plugins/flutter_boost/ios"
+  FlutterPluginRegistrant:
+    :path: "../flutter_module/.ios/Flutter/FlutterPluginRegistrant"
+  image_picker_ios:
+    :path: "../flutter_module/.ios/.symlinks/plugins/image_picker_ios/ios"
+  path_provider_foundation:
+    :path: "../flutter_module/.ios/.symlinks/plugins/path_provider_foundation/darwin"
+  video_player_avfoundation:
+    :path: "../flutter_module/.ios/.symlinks/plugins/video_player_avfoundation/darwin"
+  webview_flutter_wkwebview:
+    :path: "../flutter_module/.ios/.symlinks/plugins/webview_flutter_wkwebview/darwin"
 
 SPEC CHECKSUMS:
-  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
-  flutter_boost: 1b5f53a54ba73726829691db891e85f40b4f6494
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_boost: 3e8a6e28c86d24c83be5b2fab067746dc77a1ad6
+  FlutterPluginRegistrant: 086a6227f3101103dd2afd4e0f49fa2e4528e02a
+  image_picker_ios: c560581cceedb403a6ff17f2f816d7fea1421fc1
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  video_player_avfoundation: 7c6c11d8470e1675df7397027218274b6d2360b3
+  webview_flutter_wkwebview: 0982481e3d9c78fd5c6f62a002fcd24fc791f1e4
 
-PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+PODFILE CHECKSUM: 916b7dc2d43f8d78fd119917646567389b4142f6
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.16.2

@@ -29,32 +29,15 @@ dependencies:
   flutter_boost:
     git:
       url: "https://github.com/LShuXin/flutter_plugins"
-      path: "flutter_boost-4.6.5"
-  image_picker:
-    git:
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-      path: "packages/image_picker/image_picker"
+      path: "flutter_boost"
+  image_picker: any
   mime: ^1.0.4
-  path_provider:
-    git:
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-      path: "packages/path_provider/path_provider"
-  video_player:
-    git:
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-      path: "packages/video_player/video_player"
-  webview_flutter:
-    git:
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-      path: "packages/webview_flutter/webview_flutter"
+  path_provider: any
+  video_player: any
+  webview_flutter: any
 
 dependency_overrides:
   extended_image: 9.1.0
-  path_provider:
-    git:
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-      path: "packages/path_provider/path_provider"
-      ref: "d3f6d21"
 
 dev_dependencies:
   flutter_test:

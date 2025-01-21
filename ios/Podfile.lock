@@ -19,6 +19,7 @@ PODS:
     - FlutterMacOS
   - webview_flutter_wkwebview (0.0.1):
     - Flutter
+    - FlutterMacOS
 
 DEPENDENCIES:
   - Flutter (from `../flutter_module/.ios/Flutter`)
@@ -27,7 +28,7 @@ DEPENDENCIES:
   - image_picker_ios (from `../flutter_module/.ios/.symlinks/plugins/image_picker_ios/ios`)
   - path_provider_foundation (from `../flutter_module/.ios/.symlinks/plugins/path_provider_foundation/darwin`)
   - video_player_avfoundation (from `../flutter_module/.ios/.symlinks/plugins/video_player_avfoundation/darwin`)
-  - webview_flutter_wkwebview (from `../flutter_module/.ios/.symlinks/plugins/webview_flutter_wkwebview/ios`)
+  - webview_flutter_wkwebview (from `../flutter_module/.ios/.symlinks/plugins/webview_flutter_wkwebview/darwin`)
 
 EXTERNAL SOURCES:
   Flutter:
@@ -43,7 +44,7 @@ EXTERNAL SOURCES:
   video_player_avfoundation:
     :path: "../flutter_module/.ios/.symlinks/plugins/video_player_avfoundation/darwin"
   webview_flutter_wkwebview:
-    :path: "../flutter_module/.ios/.symlinks/plugins/webview_flutter_wkwebview/ios"
+    :path: "../flutter_module/.ios/.symlinks/plugins/webview_flutter_wkwebview/darwin"
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
@@ -52,7 +53,7 @@ SPEC CHECKSUMS:
   image_picker_ios: c560581cceedb403a6ff17f2f816d7fea1421fc1
   path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
   video_player_avfoundation: 7c6c11d8470e1675df7397027218274b6d2360b3
-  webview_flutter_wkwebview: 4f3e50f7273d31e5500066ed267e3ae4309c5ae4
+  webview_flutter_wkwebview: 0982481e3d9c78fd5c6f62a002fcd24fc791f1e4
 
 PODFILE CHECKSUM: 22241f9e75bbb0b990540f3b075fbae24ce2c30d
 

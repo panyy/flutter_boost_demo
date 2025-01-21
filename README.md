@@ -1,6 +1,6 @@
 <!--
  * @LastEditors: liushuxin admin@example.com
- * @LastEditTime: 2025-01-21 22:42:08
+ * @LastEditTime: 2025-01-21 22:52:48
  * @FilePath: /flutter_boost_demo/README.md
  * @Description: 
  * 
@@ -56,3 +56,11 @@ apples-Mac-mini-1243:~ apple$ flutter doctor -v
 ### Android
 
 Gradle JDK: corretto-11
+
+
+
+
+## Refrence
+https://github.com/alibaba/flutter_boost/tree/main
+https://docs.flutter.dev/add-to-app/android/project-setup
+https://docs.flutter.dev/add-to-app/ios/project-setup#embed-a-flutter-module-in-your-ios-app

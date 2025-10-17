@@ -28,8 +28,8 @@ dependencies:
   dual_screen: ^1.0.0
   flutter_boost:
     git:
-      url: "https://github.com/LShuXin/flutter_plugins"
-      path: "flutter_boost"
+      url: 'https://github.com/alibaba/flutter_boost.git'
+      ref: '4.6.5'
   image_picker: any
   mime: ^1.0.4
   path_provider: any
